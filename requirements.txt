@@ -1,2 +1,8 @@
 streamlit
 mysql-connector-python
+
+docker exec -it dsi324-mysql-1 bash        
+bash-5.1# mysql -u root -p
+passsword : 1234
+USE test324;
+SELECT*FROM users;
